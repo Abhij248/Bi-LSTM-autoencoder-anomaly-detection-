@@ -2,3 +2,4 @@ The code here is designed for a  14 bus system with the data consisting of 40 co
 The algorithm involves use of Bi-Directional autoencoder model to predict False Data Injection attacks based on reconstruction errors in the input data .
 The  observed reconstruction errors are quiet low because the test data is designed in such a way that detetion of attack is difficult, as is the original intention of attacker.
 The function "replace_nans()" is optional in the code and is used to tackle NaN data points in the testing data , it replaces the NaN data with the mean value of the column, the function can be removed with proper modification in the code 
+The model can be used on google collab or another preferable environment with proper installation of libraries.
